@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Sedan:ital@0;1&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/ruhrotasi.css">
+    <title>Ruh Rotası</title>
+</head>
+
+<body>
+    <div class="bg-blue border-bottom-dark py-1">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="#" style="font-family: cursive;">Ruh Rotası</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Ana Sayfa <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="tarihce.html">Tarihçe</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <div class="bg-blue border-bottom-dark py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="container">
+                        <h2 class="mt-4 mb-4">OKB Testi</h2>
+                        <form id="depression-test-form">
+                            <div class="question">
+                                <label for="q1">1. Huzursuzluk ve anksiyeteye yol açan ve sürekli tekrarlan düşüncelerle boğuştuğunuzu hissediyor musunuz?</label>
+                                <select class="form-control" id="q1">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q2">2. Mikroplardan korktuğunuz ve temizliğe aşırı düşkün olduğunuz zamanlar oluyor mu?</label>
+                                <select class="form-control" id="q2">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q3">3. Bir şeyi sürekli kontrol etmek isteğiniz ve sürekli bir şeyleri ayarlamaya çalıştığınız oluyor mu?</label>
+                                <select class="form-control" id="q3">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q4">4. Takıntı halini almış obsesif davranışlarınızı kontrol etmekte zorlanıyor musunuz?</label>
+                                <select class="form-control" id="q4">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q5">5. Günde en az bir saatinizi takıntı yaptığınız konuları düşünerek geçiriyor ve bazı davranışları ritüel haline getiriyor musunuz?</label>
+                                <select class="form-control" id="q5">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q6">6. İş yaşamınız, gündelik hayatınız ve ikili ilişkileriniz takıntılarınızdan etkileniyor mu?</label>
+                                <select class="form-control" id="q6">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q7">7. Kendi kendinize geliştirdiğiniz ritüeller, gerginliğinizi atmanıza yardımcı oluyor mu?</label>
+                                <select class="form-control" id="q7">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q8">8. Dürüstlüğe herkesten çok önem veririm.</label>
+                                <select class="form-control" id="q8">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q9">9. İşleri zamanında bitiremediğim için çoğu kez geç kalırım.</label>
+                                <select class="form-control" id="q9">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+                            <div class="question">
+                                <label for="q10">10. Bir hayvana dokununca hastalık bulaşır diye kaygılanırım.</label>
+                                <select class="form-control" id="q10">
+                                    <option value="0">Hiçbir zaman</option>
+                                    <option value="1">Bazen</option>
+                                    <option value="2">Çoğu zaman</option>
+                                    <option value="3">Her zaman</option>
+                                </select>
+                            </div>
+
+                            <!-- Daha fazla soru ekleyebilirsiniz -->
+                            <br>
+                            <button type="submit" class="btn btn-primary btn-submit">Testi Tamamla</button>
+                        </form>
+
+                        <!-- Sonuçların gösterileceği alan -->
+                        <div class="mt-4" id="result"></div>
+                    </div>
+
+                    <!-- Bootstrap JS and dependencies -->
+                    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+                    <script>
+                        // Form gönderildiğinde çalışacak JavaScript kodları
+                        $('#depression-test-form').submit(function (event) {
+                            event.preventDefault(); // Formun default davranışını engelle
+                            calculateResult();
+                        });
+
+                        // Sonuç hesaplama fonksiyonu
+                        function calculateResult() {
+                            // Soruların değerlerini topla
+                            var totalScore = 0;
+                            totalScore += parseInt($('#q1').val());
+                            totalScore += parseInt($('#q2').val());
+                            totalScore += parseInt($('#q3').val());
+                            totalScore += parseInt($('#q4').val());
+                            totalScore += parseInt($('#q5').val());
+                            totalScore += parseInt($('#q6').val());
+                            totalScore += parseInt($('#q7').val());
+                            totalScore += parseInt($('#q8').val());
+                            totalScore += parseInt($('#q9').val());
+                            totalScore += parseInt($('#q10').val());
+                            // Diğer soruların değerlerini toplamaya devam edebilirsiniz
+
+                            // Sonucu yorumla
+                            var interpretation = "";
+                            if (totalScore <= 10) {
+                                interpretation = "OKB belirtileri düşük.";
+                            } else if (totalScore <= 20) {
+                                interpretation = "Orta derecede OKB belirtileri.";
+                            } else {
+                                interpretation = "Yüksek derecede OKB belirtileri.";
+                            }
+
+                            // Sonucu ekrana yazdır
+                            $('#result').html('<div class="alert alert-info">Test sonucunuz: ' + interpretation + '</div>');
+                        }
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.5.1.slim.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
